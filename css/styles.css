@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../img/background-test.png);
+  background-color: rgb(207, 239, 69);
+  background-repeat: repeat;
+}
+
+.logo-container {
+  background-color: rgb(88, 195, 12);
+  height: 5.5vh;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: -0.9vh;
+  height: 8vh;
+  width: 10vw;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+.nav ul {
+  display: flex;
+
+  margin-left: 81vw;
+  margin-top: -6vh;
+  padding: 0;
+  list-style: none;
+}
+
+.nav a {
+  color: rgb(8, 4, 4);
+  text-decoration: none;
+  padding: 1.5vh;
+  font-size: 1.8vh;
+}
+
+.nav a:hover {
+  color: yellow;
+}
+
+.nav-container {
+  background-color: rgb(88, 195, 12);
+  height: 3vh;
+}
+
+/* section */
+
+.text-home-page {
+  font-size: 6vh;
+  margin-left: 42vw;
+  margin-top: 1vh;
+  color: rgb(31, 143, 121);
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.slider-container {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: 75vh;
+  width: 75vw;
+  position: relative;
+  overflow: hidden;
+  margin-left: 12vw;
+  margin-top: 2vh;
+}
+
+.slide {
+  opacity: 0;
+  height: 75vh;
+  width: 75vw;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  margin-top: 0vh;
+  margin-left: 0vw;
+  transition: 0.4s ease;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.arrow {
+  position: fixed;
+  background-color: rgba(88, 195, 12, 0.5);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  top: 55%;
+
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow:focus {
+  outline: 0;
+}
+
+.left-arrow {
+  margin-left: -5vw;
+}
+
+.right-arrow {
+  margin-left: 76vw;
+}
+
+.footer {
+  margin-top: 6.2vh;
+  background-color: gray;
+}

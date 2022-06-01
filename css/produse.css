@@ -1,0 +1,148 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(207, 239, 69);
+  background-image: url(../img/background-test.png);
+  background-repeat: repeat;
+}
+
+.logo-container {
+  background-color: rgb(88, 195, 12);
+  height: 5.5vh;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: -0.9vh;
+  height: 8vh;
+  width: 10vw;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+.nav ul {
+  display: flex;
+  margin-left: 81vw;
+  margin-top: -4vh;
+  padding: 0;
+  list-style: none;
+}
+
+.nav a {
+  color: rgb(8, 4, 4);
+  text-decoration: none;
+  padding: 1vh;
+  font-size: 1.8vh;
+}
+
+.nav a:hover {
+  color: yellow;
+}
+
+.nav-container {
+  background-color: rgb(88, 195, 12);
+  height: 3vh;
+}
+
+/* Produse  */
+
+.titlu1,
+.titlu2,
+.titlu3,
+.titlu4 {
+  margin-top: 2vh;
+  margin-left: 6vw;
+  font-size: 3.5vh;
+  font-weight: bold;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  margin-top: 1vh;
+  margin-left: 1vw;
+  height: 50vh;
+  width: 25vw;
+  display: inline-block;
+  margin-bottom: 3vh;
+}
+
+.descriere1,
+.descriere2,
+.descriere3,
+.descriere4 {
+  margin-left: 27.5vw;
+  margin-top: -49vh;
+}
+
+.descriere1 p,
+.descriere2 p,
+.descriere3 p,
+.descriere4 p {
+  font-size: 3vh;
+  color: black;
+  padding: 1.5vh;
+}
+
+.pret1,
+.pret2,
+.pret3,
+.pret4 {
+  font-size: 3vh;
+  margin-left: 10vw;
+  margin-top: 5vh;
+  font-weight: bold;
+}
+
+.img5,
+.img6,
+.img7 {
+  margin-top: 0vh;
+  margin-left: 0vw;
+  height: 60vh;
+  width: 30vw;
+}
+
+.text-vrac1 {
+  font-size: 3vh;
+  font-weight: bold;
+  margin-left: 15vw;
+  margin-top: 8vh;
+}
+
+.text-vrac2 {
+  font-size: 3vh;
+  font-weight: bold;
+  margin-left: 47vw;
+  margin-top: -3vh;
+}
+
+.text-vrac3 {
+  font-size: 3vh;
+  font-weight: bold;
+  margin-left: 75vw;
+  margin-top: -4vh;
+}
+
+.produse-vrac {
+  margin-top: 4vh;
+  margin-left: 0vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 8vh;
+  background-color: gray;
+}
